@@ -4,6 +4,7 @@
 #include "hardware/pio.h"
 #include "hardware/clocks.h"
 #include "test_cpp.h"
+#include "class_main.h"
 
 
 // Data will be copied from src to dst
@@ -74,6 +75,7 @@ int main()
     #endif
     // For more pio examples see https://github.com/raspberrypi/pico-examples/tree/master/pio
 
+    class_main class1;
 
     printf("gain %f \n",calculate_gain(100));
     while (true) {

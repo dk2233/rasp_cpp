@@ -36,6 +36,7 @@ pico_sdk_init()
 # Add executable. Default name is the project name, version 0.1
 
 add_executable(tutorial_cpp main.cpp 
+    class_main.cpp
     constexpr.cpp 
     template.cpp)
 
